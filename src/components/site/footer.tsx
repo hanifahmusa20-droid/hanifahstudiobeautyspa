@@ -196,17 +196,14 @@ export function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-[13px] text-cream/60 text-center">
             <span>© {new Date().getFullYear()} {BRAND.name}. All rights reserved.</span>
             <span className="hidden sm:inline text-cream/30">·</span>
-            <span>
-              Designed By{" "}
-              <a
-                href="https://preview-chat-8dbaa95e-ab4d-48e2-9030-1e7c59b14b99.space-z.ai/website-offer"
-                target="_blank"
-                rel="noreferrer"
-                className="text-cream/60 transition-colors hover:text-caramel"
-              >
-                hanifah Studio
-              </a>
-            </span>
+            <a
+              href="https://preview-chat-8dbaa95e-ab4d-48e2-9030-1e7c59b14b99.space-z.ai/website-offer"
+              target="_blank"
+              rel="noreferrer"
+              className="text-cream/60 transition-colors hover:text-caramel"
+            >
+              Designed By hanifah Studio
+            </a>
           </div>
         </div>
       </div>

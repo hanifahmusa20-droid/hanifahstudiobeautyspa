@@ -29,12 +29,21 @@ export const metadata: Metadata = {
     "facial Lagos",
   ],
   authors: [{ name: "Amara Beauty & Spa" }],
+  icons: {
+    icon: "/images/logo.png",
+  },
   openGraph: {
     title: "Amara Beauty & Spa",
     description:
       "Hair, nails, skin, body and makeup, done slowly and done well. Book your visit to our salon in Lekki Phase 1, Lagos.",
     siteName: "Amara Beauty & Spa",
     type: "website",
+    images: [
+      {
+        url: "/images/hero_woman.png",
+        alt: "Amara Beauty and Spa salon in Lekki Phase 1, Lagos",
+      },
+    ],
   },
 };
 
